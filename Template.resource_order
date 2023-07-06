@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"ImmunHuone","order":6,"path":"rooms/ImmunHuone/ImmunHuone.yy",},
     {"name":"OllinHuone","order":5,"path":"rooms/OllinHuone/OllinHuone.yy",},
     {"name":"JukanHuone_2","order":2,"path":"rooms/JukanHuone_2/JukanHuone_2.yy",},
     {"name":"JoonaksenHuone","order":3,"path":"rooms/JoonaksenHuone/JoonaksenHuone.yy",},
