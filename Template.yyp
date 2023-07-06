@@ -34,12 +34,14 @@
     "IDEVersion": "2023.6.0.89",
   },
   "resources": [
+    {"id":{"name":"JukanHuone_2","path":"rooms/JukanHuone_2/JukanHuone_2.yy",},},
     {"id":{"name":"JukanHuone","path":"rooms/JukanHuone/JukanHuone.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"JukanHuone","path":"rooms/JukanHuone/JukanHuone.yy",},},
+    {"roomId":{"name":"JukanHuone_2","path":"rooms/JukanHuone_2/JukanHuone_2.yy",},},
   ],
   "TextureGroups": [
     {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},

@@ -17,6 +17,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
+    {"name":"JukanHuone_2","order":2,"path":"rooms/JukanHuone_2/JukanHuone_2.yy",},
     {"name":"JukanHuone","order":1,"path":"rooms/JukanHuone/JukanHuone.yy",},
   ],
 }
