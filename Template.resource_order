@@ -18,6 +18,8 @@
   ],
   "ResourceOrderSettings": [
     {"name":"JukanHuone_2","order":2,"path":"rooms/JukanHuone_2/JukanHuone_2.yy",},
+    {"name":"JoonaksenHuone","order":3,"path":"rooms/JoonaksenHuone/JoonaksenHuone.yy",},
+    {"name":"JoonaksenHuone2","order":4,"path":"rooms/JoonaksenHuone2/JoonaksenHuone2.yy",},
     {"name":"JukanHuone","order":1,"path":"rooms/JukanHuone/JukanHuone.yy",},
   ],
 }
