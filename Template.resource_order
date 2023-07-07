@@ -18,7 +18,6 @@
   ],
   "ResourceOrderSettings": [
     {"name":"obj_music","order":4,"path":"objects/obj_music/obj_music.yy",},
-    {"name":"obj_path","order":1,"path":"objects/obj_path/obj_path.yy",},
     {"name":"spr_temp_room","order":2,"path":"sprites/spr_temp_room/spr_temp_room.yy",},
     {"name":"ImmunHuone","order":6,"path":"rooms/ImmunHuone/ImmunHuone.yy",},
     {"name":"obj_temp_monster","order":2,"path":"objects/obj_temp_monster/obj_temp_monster.yy",},
