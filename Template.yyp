@@ -9,7 +9,7 @@
     "children": [],
     "name": "Default",
   },
-  "defaultScriptType": 0,
+  "defaultScriptType": 1,
   "Folders": [
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Animation Curves","folderPath":"folders/Animation Curves.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
@@ -35,8 +35,7 @@
   },
   "resources": [
     {"id":{"name":"Alus","path":"objects/Alus/Alus.yy",},},
-    {"id":{"name":"obj_path","path":"objects/obj_path/obj_path.yy",},},
-    {"id":{"name":"Path1","path":"paths/Path1/Path1.yy",},},
+    {"id":{"name":"pth_path_1","path":"paths/pth_path_1/pth_path_1.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"Sprite2","path":"sprites/Sprite2/Sprite2.yy",},},
     {"id":{"name":"spr_temp_room","path":"sprites/spr_temp_room/spr_temp_room.yy",},},
@@ -53,9 +52,9 @@
     {"id":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},},
   ],
   "RoomOrderNodes": [
+    {"roomId":{"name":"JukanHuone","path":"rooms/JukanHuone/JukanHuone.yy",},},
     {"roomId":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},},
     {"roomId":{"name":"ImmunHuone","path":"rooms/ImmunHuone/ImmunHuone.yy",},},
-    {"roomId":{"name":"JukanHuone","path":"rooms/JukanHuone/JukanHuone.yy",},},
     {"roomId":{"name":"JukanHuone_2","path":"rooms/JukanHuone_2/JukanHuone_2.yy",},},
     {"roomId":{"name":"JoonaksenHuone","path":"rooms/JoonaksenHuone/JoonaksenHuone.yy",},},
     {"roomId":{"name":"JoonaksenHuone2","path":"rooms/JoonaksenHuone2/JoonaksenHuone2.yy",},},
