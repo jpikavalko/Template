@@ -5,8 +5,14 @@ image_yscale = 2;
 
 depth = -10000;
 
-max_height = room_height;
-max_width = room_width;
+// padding for area scanning in pixels
+scan_area_padding = 100; 
+
+min_width = scan_area_padding;
+min_height = scan_area_padding;
+
+max_width = room_width - scan_area_padding;
+max_height = room_height - scan_area_padding;
 
 eye_scan_interval = 480; // 60 = 1 second
 
@@ -16,6 +22,9 @@ lerped_x = 0;
 lerped_y = 0;
 lerp_speed_x = 0.01;
 lerp_speed_y = 0.001;
+
+detected = false;
+
 
 function get_random_coord(_max_dimension_value)
 {
