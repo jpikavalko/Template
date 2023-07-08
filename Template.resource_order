@@ -17,7 +17,9 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
   ],
   "ResourceOrderSettings": [
-    {"name":"obj_music","order":4,"path":"objects/obj_music/obj_music.yy",},
+    {"name":"obj_mus_reversemusicbox","order":4,"path":"objects/obj_mus_reversemusicbox/obj_mus_reversemusicbox.yy",},
+    {"name":"mus_mainmenu","order":1,"path":"sounds/mus_mainmenu/mus_mainmenu.yy",},
+    {"name":"obj_mus_mainmenu","order":5,"path":"objects/obj_mus_mainmenu/obj_mus_mainmenu.yy",},
     {"name":"spr_temp_room","order":2,"path":"sprites/spr_temp_room/spr_temp_room.yy",},
     {"name":"ImmunHuone","order":6,"path":"rooms/ImmunHuone/ImmunHuone.yy",},
     {"name":"obj_temp_monster","order":2,"path":"objects/obj_temp_monster/obj_temp_monster.yy",},
