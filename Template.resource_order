@@ -23,10 +23,12 @@
     {"name":"obj_temp_monster","order":2,"path":"objects/obj_temp_monster/obj_temp_monster.yy",},
     {"name":"OllinHuone","order":5,"path":"rooms/OllinHuone/OllinHuone.yy",},
     {"name":"JukanHuone_2","order":2,"path":"rooms/JukanHuone_2/JukanHuone_2.yy",},
+    {"name":"spr_mask_shadow","order":3,"path":"sprites/spr_mask_shadow/spr_mask_shadow.yy",},
     {"name":"obj_room_image","order":3,"path":"objects/obj_room_image/obj_room_image.yy",},
     {"name":"JoonaksenHuone","order":3,"path":"rooms/JoonaksenHuone/JoonaksenHuone.yy",},
     {"name":"JoonaksenHuone2","order":4,"path":"rooms/JoonaksenHuone2/JoonaksenHuone2.yy",},
     {"name":"JukanHuone","order":1,"path":"rooms/JukanHuone/JukanHuone.yy",},
     {"name":"spr_temp_monster","order":1,"path":"sprites/spr_temp_monster/spr_temp_monster.yy",},
+    {"name":"obj_mask_shadow","order":4,"path":"objects/obj_mask_shadow/obj_mask_shadow.yy",},
   ],
 }
