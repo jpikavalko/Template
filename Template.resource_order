@@ -21,6 +21,7 @@
     {"name":"spr_mask_shadow","order":5,"path":"sprites/spr_mask_shadow/spr_mask_shadow.yy",},
     {"name":"obj_temp_monster","order":2,"path":"objects/obj_temp_monster/obj_temp_monster.yy",},
     {"name":"spr_placefolder_focal_ring","order":7,"path":"sprites/spr_placefolder_focal_ring/spr_placefolder_focal_ring.yy",},
+    {"name":"obj_anti_obstacle","order":9,"path":"objects/obj_anti_obstacle/obj_anti_obstacle.yy",},
     {"name":"obj_focus_point","order":8,"path":"objects/obj_focus_point/obj_focus_point.yy",},
     {"name":"spr_obstacle","order":6,"path":"sprites/spr_obstacle/spr_obstacle.yy",},
     {"name":"spr_temp_room","order":2,"path":"sprites/spr_temp_room/spr_temp_room.yy",},

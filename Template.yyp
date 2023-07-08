@@ -43,6 +43,7 @@
     {"id":{"name":"obj_mus_reversemusicbox","path":"objects/obj_mus_reversemusicbox/obj_mus_reversemusicbox.yy",},},
     {"id":{"name":"mus_mainmenu","path":"sounds/mus_mainmenu/mus_mainmenu.yy",},},
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
+    {"id":{"name":"obj_anti_obstacle","path":"objects/obj_anti_obstacle/obj_anti_obstacle.yy",},},
     {"id":{"name":"obj_mus_mainmenu","path":"objects/obj_mus_mainmenu/obj_mus_mainmenu.yy",},},
     {"id":{"name":"obj_focus_point","path":"objects/obj_focus_point/obj_focus_point.yy",},},
     {"id":{"name":"mus_reversemusicbox","path":"sounds/mus_reversemusicbox/mus_reversemusicbox.yy",},},
