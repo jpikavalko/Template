@@ -21,8 +21,10 @@
     {"name":"spr_mask_shadow","order":5,"path":"sprites/spr_mask_shadow/spr_mask_shadow.yy",},
     {"name":"obj_temp_monster","order":2,"path":"objects/obj_temp_monster/obj_temp_monster.yy",},
     {"name":"obj_music","order":4,"path":"objects/obj_music/obj_music.yy",},
+    {"name":"spr_obstacle","order":6,"path":"sprites/spr_obstacle/spr_obstacle.yy",},
     {"name":"spr_temp_room","order":2,"path":"sprites/spr_temp_room/spr_temp_room.yy",},
     {"name":"ImmunHuone2","order":7,"path":"rooms/ImmunHuone2/ImmunHuone2.yy",},
+    {"name":"obj_obstacle","order":7,"path":"objects/obj_obstacle/obj_obstacle.yy",},
     {"name":"ImmunHuone","order":6,"path":"rooms/ImmunHuone/ImmunHuone.yy",},
     {"name":"OllinHuone","order":5,"path":"rooms/OllinHuone/OllinHuone.yy",},
     {"name":"JukanHuone_2","order":2,"path":"rooms/JukanHuone_2/JukanHuone_2.yy",},
@@ -30,6 +32,7 @@
     {"name":"JoonaksenHuone","order":3,"path":"rooms/JoonaksenHuone/JoonaksenHuone.yy",},
     {"name":"JoonaksenHuone2","order":4,"path":"rooms/JoonaksenHuone2/JoonaksenHuone2.yy",},
     {"name":"JukanHuone","order":1,"path":"rooms/JukanHuone/JukanHuone.yy",},
+    {"name":"obj_debug_text","order":6,"path":"objects/obj_debug_text/obj_debug_text.yy",},
     {"name":"spr_temp_monster","order":1,"path":"sprites/spr_temp_monster/spr_temp_monster.yy",},
   ],
 }
