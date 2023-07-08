@@ -8,7 +8,7 @@ _distance_in_path = 0;
 _path_len = path_get_length(pth_path_1)
 
 // character initial scale
-min_scale = 0.1;
+min_scale = 0.25;
 
 // Set speed for best results. Default = 5
 character_speed = 5;
