@@ -30,6 +30,7 @@
     {"name":"OllinHuone","order":5,"path":"rooms/OllinHuone/OllinHuone.yy",},
     {"name":"JukanHuone_2","order":2,"path":"rooms/JukanHuone_2/JukanHuone_2.yy",},
     {"name":"obj_room_image","order":3,"path":"objects/obj_room_image/obj_room_image.yy",},
+    {"name":"obj_draw","order":8,"path":"objects/obj_draw/obj_draw.yy",},
     {"name":"JoonaksenHuone","order":3,"path":"rooms/JoonaksenHuone/JoonaksenHuone.yy",},
     {"name":"JoonaksenHuone2","order":4,"path":"rooms/JoonaksenHuone2/JoonaksenHuone2.yy",},
     {"name":"JukanHuone","order":1,"path":"rooms/JukanHuone/JukanHuone.yy",},

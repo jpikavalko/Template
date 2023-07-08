@@ -36,6 +36,7 @@
   "resources": [
     {"id":{"name":"obj_mask_shadow","path":"objects/obj_mask_shadow/obj_mask_shadow.yy",},},
     {"id":{"name":"spr_mask_shadow","path":"sprites/spr_mask_shadow/spr_mask_shadow.yy",},},
+    {"id":{"name":"sh_blur","path":"shaders/sh_blur/sh_blur.yy",},},
     {"id":{"name":"obj_temp_monster","path":"objects/obj_temp_monster/obj_temp_monster.yy",},},
     {"id":{"name":"pth_path_1","path":"paths/pth_path_1/pth_path_1.yy",},},
     {"id":{"name":"spr_placefolder_focal_ring","path":"sprites/spr_placefolder_focal_ring/spr_placefolder_focal_ring.yy",},},
@@ -55,6 +56,7 @@
     {"id":{"name":"JukanHuone_2","path":"rooms/JukanHuone_2/JukanHuone_2.yy",},},
     {"id":{"name":"fnt_debug_font","path":"fonts/fnt_debug_font/fnt_debug_font.yy",},},
     {"id":{"name":"obj_room_image","path":"objects/obj_room_image/obj_room_image.yy",},},
+    {"id":{"name":"obj_draw","path":"objects/obj_draw/obj_draw.yy",},},
     {"id":{"name":"JoonaksenHuone","path":"rooms/JoonaksenHuone/JoonaksenHuone.yy",},},
     {"id":{"name":"JoonaksenHuone2","path":"rooms/JoonaksenHuone2/JoonaksenHuone2.yy",},},
     {"id":{"name":"JukanHuone","path":"rooms/JukanHuone/JukanHuone.yy",},},
