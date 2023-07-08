@@ -13,5 +13,8 @@ min_scale = 0.25;
 // Set speed for best results. Default = 5
 character_speed = 5;
 
+// Player is behind obstacle
+global.player_in_cover = false;
+
 // Makes character follow this path
 with (other) path_start(pth_path_1, 0, path_action_reverse, false);

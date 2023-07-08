@@ -6,5 +6,13 @@ if (alarm[0] < 0)
 	alarm[0] = eye_scan_interval;
 }
 
-x = lerp(x, new_x, lerp_speed_x);
-y = lerp(y, new_y, lerp_speed_y);
+lerped_x = lerp(x, new_x, lerp_speed_x);
+lerped_y = lerp(y, new_y, lerp_speed_y);
+x = lerped_x;
+y = lerped_y;
+
+var _normalized_x = ((lerped_x - 0) / (max_width - 0) );
+var _normalized_y = ((lerped_y - 0) / (max_height - 0) );
+
+global.focus_x = _normalized_x;
+global.focus_y = _normalized_y;

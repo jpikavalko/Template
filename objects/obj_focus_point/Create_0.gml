@@ -12,11 +12,10 @@ eye_scan_interval = 480; // 60 = 1 second
 
 new_x = 0;
 new_y = 0;
-
+lerped_x = 0;
+lerped_y = 0;
 lerp_speed_x = 0.01;
 lerp_speed_y = 0.001;
-
-player_in_cover = false;
 
 function get_random_coord(_max_dimension_value)
 {
