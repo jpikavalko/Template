@@ -1,9 +1,8 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_main_menu",
+  "name": "obj_solid_black",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
   ],
   "managed": true,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_main_menu",
-    "path": "sprites/spr_main_menu/spr_main_menu.yy",
+    "name": "spr_solid_black",
+    "path": "sprites/spr_solid_black/spr_solid_black.yy",
   },
   "spriteMaskId": null,
   "visible": true,
