@@ -16,3 +16,14 @@ var _normalized_y = ((lerped_y - 0) / (max_height - 0) );
 
 global.focus_x = _normalized_x;
 global.focus_y = _normalized_y;
+
+detected = place_meeting(x, y, obj_temp_monster);
+
+if (detected && !obj_temp_monster.player_in_cover)
+{
+	
+}
+else if (detected && obj_temp_monster.player_in_cover)
+{
+	
+}

@@ -14,7 +14,12 @@ min_scale = 0.25;
 character_speed = 5;
 
 // Player is behind obstacle
-global.player_in_cover = false;
+player_in_cover = place_meeting(x, y, obj_obstacle);
 
 // Makes character follow this path
 with (other) path_start(pth_path_1, 0, path_action_reverse, false);
+
+x_begin = 0;
+y_begin = 0;
+is_moving = false;
+is_climbing = false;
