@@ -11,19 +11,32 @@ lerped_y = lerp(y, new_y, lerp_speed_y);
 x = lerped_x;
 y = lerped_y;
 
-var _normalized_x = ((lerped_x - 0) / (max_width - 0) );
-var _normalized_y = ((lerped_y - 0) / (max_height - 0) );
+var _normalized_x = ((lerped_x - min_width) / (max_width - min_width) );
+var _normalized_y = ((lerped_y - min_height) / (max_height - min_height) );
 
 global.focus_x = _normalized_x;
 global.focus_y = _normalized_y;
 
 detected = place_meeting(x, y, obj_temp_monster);
 
-if (detected && !obj_temp_monster.player_in_cover)
+
+if (obj_temp_monster.player_in_cover)
 {
-	
+	// Scanning the room
+	show_debug_message("Scanning around the room...");
 }
-else if (detected && obj_temp_monster.player_in_cover)
+else
 {
+	// Start following player after a while
+	show_debug_message("Follow player.");
 	
+	if (detected)
+	{
+		// INSANITY
+		show_debug_message("Player found!");
+	}
+	else if (!detected)
+	{
+		// do nothing special..
+	}
 }

@@ -32,15 +32,6 @@ var _normalized_distance = ((_distance_in_path - 0) / (_path_len - 0) );
 
 player_in_cover = place_meeting(x, y, obj_obstacle);
 
-if (player_in_cover)
-{
-	// Silmä haahuilee normaalisti
-}
-else
-{
-	// Silmä alkaa x ajan päästä seuraamaan pelaajaa esim alarmin kanssa.
-}
-
 path_position = _normalized_distance;
 
 image_xscale = _normalized_distance + min_scale;
