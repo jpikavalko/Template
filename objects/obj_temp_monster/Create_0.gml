@@ -23,3 +23,4 @@ x_begin = 0;
 y_begin = 0;
 is_moving = false;
 is_climbing = false;
+last_x_dir = 1;

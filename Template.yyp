@@ -55,6 +55,7 @@
     {"id":{"name":"spr_climb","path":"sprites/spr_climb/spr_climb.yy",},},
     {"id":{"name":"obj_climb_trigger","path":"objects/obj_climb_trigger/obj_climb_trigger.yy",},},
     {"id":{"name":"ImmunHuone2","path":"rooms/ImmunHuone2/ImmunHuone2.yy",},},
+    {"id":{"name":"spr_idel_left","path":"sprites/spr_idel_left/spr_idel_left.yy",},},
     {"id":{"name":"spr_walk_front","path":"sprites/spr_walk_front/spr_walk_front.yy",},},
     {"id":{"name":"obj_obstacle","path":"objects/obj_obstacle/obj_obstacle.yy",},},
     {"id":{"name":"ImmunHuone","path":"rooms/ImmunHuone/ImmunHuone.yy",},},

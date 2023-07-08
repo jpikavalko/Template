@@ -30,6 +30,7 @@
     {"name":"spr_climb","order":9,"path":"sprites/spr_climb/spr_climb.yy",},
     {"name":"obj_climb_trigger","order":9,"path":"objects/obj_climb_trigger/obj_climb_trigger.yy",},
     {"name":"ImmunHuone2","order":7,"path":"rooms/ImmunHuone2/ImmunHuone2.yy",},
+    {"name":"spr_idel_left","order":12,"path":"sprites/spr_idel_left/spr_idel_left.yy",},
     {"name":"spr_walk_front","order":10,"path":"sprites/spr_walk_front/spr_walk_front.yy",},
     {"name":"obj_obstacle","order":7,"path":"objects/obj_obstacle/obj_obstacle.yy",},
     {"name":"ImmunHuone","order":6,"path":"rooms/ImmunHuone/ImmunHuone.yy",},

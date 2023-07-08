@@ -43,12 +43,23 @@ else
 
 path_position = _normalized_distance;
 
-image_xscale = _normalized_distance + min_scale;
-image_yscale = _normalized_distance + min_scale;
 
-if (image_xscale > 1){
-	image_xscale = 1;
-	image_yscale = 1;
+if (_normalized_distance > .8) {
+	is_climbing = false;
+	var _r = ((_normalized_distance - .8) / (1. - .8));
+	image_xscale = .6 + _r * .8;
+	image_yscale = .6 + _r * .8;
+} else if (_normalized_distance > .55) {
+	is_climbing = false;
+	image_xscale = .6;
+	image_yscale = .6;
+} else if (_normalized_distance > .30) {
+	var _r = ((_normalized_distance - .30) / (.55 - .30));
+	image_xscale = .3 + _r * .3;
+	image_yscale = .3 + _r * .3;
+} else {
+	image_xscale = .3;
+	image_yscale = .3;
 }
 
 draw_path(pth_path_1, x, y, false);
