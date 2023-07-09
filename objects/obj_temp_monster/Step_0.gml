@@ -16,35 +16,20 @@ if (keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up))
 {
 	//character_speed += 1;
 	path_number++;
-	if (path_number >= 4) path_number = 4;
+	if (path_number >= 5) path_number = 5;
+	
+	change_path(path_number);
 	
 	_distance_in_path = 0;
-	
-	if (path_number == 1)
-	{
-		with (other) path_start(pth_path_1, 0, path_action_reverse, true);
-		_path_len = path_get_length(pth_path_1)
-	}
-	else if (path_number == 2)
-	{
-		with (other) path_start(pth_path_2, 0, path_action_reverse, true);
-		_path_len = path_get_length(pth_path_2)
-	}
-		else if (path_number == 3)
-	{
-		with (other) path_start(pth_path_3, 0, path_action_reverse, true);
-		_path_len = path_get_length(pth_path_3)
-	}
-		else if (path_number == 4)
-	{
-		with (other) path_start(pth_path_4, 0, path_action_reverse, true);
-		_path_len = path_get_length(pth_path_4)
-	}
 }
 if (keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down))
 {
-	//character_speed -= 1;
+	path_number--;
+	if (path_number <= 1) path_number = 1;
+
+	change_path(path_number);
 	
+	_distance_in_path = 1;
 }
 
 var _normalized_distance = ((_distance_in_path - 0) / (_path_len - 0) );
@@ -53,6 +38,10 @@ player_in_cover = place_meeting(x, y, obj_obstacle);
 
 path_position = _normalized_distance;
 
+if (obj_debug_text)
+{
+	obj_debug_text.text2_to_draw = _normalized_distance;
+}
 
 //if (_normalized_distance > .8) {
 //	is_climbing = false;

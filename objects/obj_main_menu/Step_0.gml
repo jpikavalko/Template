@@ -14,3 +14,4 @@ if global.start_timer = true
 {
 	obj_solid_black.image_alpha = obj_solid_black.image_alpha - 0.005;
 }
+

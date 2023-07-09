@@ -13,7 +13,7 @@ _path_len = path_get_length(pth_path_1)
 min_scale = 0.25;
 
 // Set speed for best results. Default = 5
-character_speed = 5;
+character_speed = 2.3;
 
 // Player is behind obstacle
 player_in_cover = place_meeting(x, y, obj_obstacle);
@@ -29,7 +29,7 @@ last_x_dir = 1;
 
 function move_player_a(_move_speed)
 {
-	if (path_number == 2)
+	if (path_number == 2 || path_number == 5)
 	{
 		_distance_in_path -= _move_speed;
 	}else{
@@ -47,4 +47,35 @@ function move_player_a(_move_speed)
 	
 	is_moving = true;
 	
+}
+
+function change_path(_path_number)
+{
+	if (_path_number == 1)
+	{
+		with (other) path_start(pth_path_1, 0, path_action_reverse, true);
+		_path_len = path_get_length(pth_path_1)
+	}
+	else if (_path_number == 2)
+	{
+		with (other) path_start(pth_path_2, 0, path_action_reverse, true);
+		_path_len = path_get_length(pth_path_2)
+	}
+		else if (_path_number == 3)
+	{
+		with (other) path_start(pth_path_3, 0, path_action_reverse, true);
+		_path_len = path_get_length(pth_path_3)
+	}
+		else if (_path_number == 4)
+	{
+		with (other) path_start(pth_path_4, 0, path_action_reverse, true);
+		_path_len = path_get_length(pth_path_4)
+	}
+		else if (_path_number == 5)
+	{
+		with (other) path_start(pth_path_5, 0, path_action_reverse, true);
+		_path_len = path_get_length(pth_path_5)
+	}
+	
+	_distance_in_path = 0;
 }

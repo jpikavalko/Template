@@ -2,5 +2,11 @@
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
     {"name":"spr_huone_tausta","order":1,"path":"sprites/spr_huone_tausta/spr_huone_tausta.yy",},
+    {"name":"pth_path_3","order":2,"path":"paths/pth_path_3/pth_path_3.yy",},
+    {"name":"spr_lamppu","order":2,"path":"sprites/spr_lamppu/spr_lamppu.yy",},
+    {"name":"mus_musicbox","order":1,"path":"sounds/mus_musicbox/mus_musicbox.yy",},
+    {"name":"pth_path_4","order":3,"path":"paths/pth_path_4/pth_path_4.yy",},
+    {"name":"obj_lamppu","order":1,"path":"objects/obj_lamppu/obj_lamppu.yy",},
+    {"name":"pth_path_2","order":1,"path":"paths/pth_path_2/pth_path_2.yy",},
   ],
 }
