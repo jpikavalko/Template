@@ -3,12 +3,12 @@
 
 if global.start_timer = false
 {
-	image_index = (max(1, image_index % 9));
+	image_index = (max(1, image_index % 3));
 }
-else if image_index < 23
+else if image_index < 17
 {
-	image_index = (max(10, image_index % 23));
+	image_index = (max(4, image_index % 17));
 }
-else image_index = 23;
+else image_index = 17;
 
 
