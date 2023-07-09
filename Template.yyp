@@ -57,11 +57,8 @@
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"spr_jalat","path":"sprites/spr_jalat/spr_jalat.yy",},},
     {"id":{"name":"pth_path_3","path":"paths/pth_path_3/pth_path_3.yy",},},
-<<<<<<< HEAD
     {"id":{"name":"spr_lamppu","path":"sprites/spr_lamppu/spr_lamppu.yy",},},
-=======
     {"id":{"name":"obj_audiotrigger_1","path":"objects/obj_audiotrigger_1/obj_audiotrigger_1.yy",},},
->>>>>>> cc0d98e34f4bf85e704efece5aaa1e9702b1ab06
     {"id":{"name":"obj_mus_mainmenu","path":"objects/obj_mus_mainmenu/obj_mus_mainmenu.yy",},},
     {"id":{"name":"obj_oikea_hylly","path":"objects/obj_oikea_hylly/obj_oikea_hylly.yy",},},
     {"id":{"name":"obj_focus_point","path":"objects/obj_focus_point/obj_focus_point.yy",},},
