@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-path_number = 1;
+path_number =1;
 
 // Set character to this point in path (in pixels)
 _distance_in_path = 0;

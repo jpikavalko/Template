@@ -11,7 +11,7 @@ if (keyboard_check(ord("A")) || keyboard_check(vk_left))
 
 is_climbing = place_meeting(x, y, obj_climb_trigger);
 
-// For testing whics speed feels good
+ //For testing whics speed feels good
 //if (keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up))
 //{
 //	//character_speed += 1;
@@ -39,8 +39,11 @@ player_in_cover = place_meeting(x, y, obj_obstacle);
 path_position = _normalized_distance;
 
 if (_normalized_distance >= 0.999){
-	if (!path_number == 5)
-	next_path();
+	if (path_number != 5)
+	{
+		next_path();
+	}
+
 }
 
 if (obj_debug_text)
