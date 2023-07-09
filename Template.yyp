@@ -98,6 +98,7 @@
     {"id":{"name":"spr_oikea_hylly","path":"sprites/spr_oikea_hylly/spr_oikea_hylly.yy",},},
     {"id":{"name":"pth_path_4","path":"paths/pth_path_4/pth_path_4.yy",},},
     {"id":{"name":"spr_solid_black_frame","path":"sprites/spr_solid_black_frame/spr_solid_black_frame.yy",},},
+    {"id":{"name":"obj_audiotrigger_2","path":"objects/obj_audiotrigger_2/obj_audiotrigger_2.yy",},},
     {"id":{"name":"spr_walk_left","path":"sprites/spr_walk_left/spr_walk_left.yy",},},
     {"id":{"name":"JoonaksenHuone","path":"rooms/JoonaksenHuone/JoonaksenHuone.yy",},},
     {"id":{"name":"JoonaksenHuone2","path":"rooms/JoonaksenHuone2/JoonaksenHuone2.yy",},},
@@ -114,8 +115,8 @@
     {"id":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},},
     {"roomId":{"name":"JukanHuone","path":"rooms/JukanHuone/JukanHuone.yy",},},
+    {"roomId":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},},
     {"roomId":{"name":"ImmunHuone","path":"rooms/ImmunHuone/ImmunHuone.yy",},},
     {"roomId":{"name":"JukanHuone_2","path":"rooms/JukanHuone_2/JukanHuone_2.yy",},},
     {"roomId":{"name":"JoonaksenHuone","path":"rooms/JoonaksenHuone/JoonaksenHuone.yy",},},
