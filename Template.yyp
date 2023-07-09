@@ -72,6 +72,7 @@
     {"id":{"name":"spr_walk_right","path":"sprites/spr_walk_right/spr_walk_right.yy",},},
     {"id":{"name":"spr_climb","path":"sprites/spr_climb/spr_climb.yy",},},
     {"id":{"name":"obj_climb_trigger","path":"objects/obj_climb_trigger/obj_climb_trigger.yy",},},
+    {"id":{"name":"pth_path_5","path":"paths/pth_path_5/pth_path_5.yy",},},
     {"id":{"name":"sd_windwoosh","path":"sounds/sd_windwoosh/sd_windwoosh.yy",},},
     {"id":{"name":"spr_solid_black","path":"sprites/spr_solid_black/spr_solid_black.yy",},},
     {"id":{"name":"ImmunHuone2","path":"rooms/ImmunHuone2/ImmunHuone2.yy",},},

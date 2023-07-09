@@ -5,6 +5,7 @@
     {"name":"spr_huone_tausta","order":1,"path":"sprites/spr_huone_tausta/spr_huone_tausta.yy",},
     {"name":"pth_path_3","order":2,"path":"paths/pth_path_3/pth_path_3.yy",},
     {"name":"sd_tv_static","order":7,"path":"sounds/sd_tv_static/sd_tv_static.yy",},
+    {"name":"pth_path_5","order":4,"path":"paths/pth_path_5/pth_path_5.yy",},
     {"name":"sd_windwoosh","order":8,"path":"sounds/sd_windwoosh/sd_windwoosh.yy",},
     {"name":"mus_musicbox_loop","order":1,"path":"sounds/mus_musicbox_loop/mus_musicbox_loop.yy",},
     {"name":"sd_open_drawer","order":4,"path":"sounds/sd_open_drawer/sd_open_drawer.yy",},
