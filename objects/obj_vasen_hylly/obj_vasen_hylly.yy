@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "vasen_hylly",
-    "path": "sprites/vasen_hylly/vasen_hylly.yy",
+    "name": "spr_vasen_hylly",
+    "path": "sprites/spr_vasen_hylly/spr_vasen_hylly.yy",
   },
   "spriteMaskId": null,
   "visible": true,
