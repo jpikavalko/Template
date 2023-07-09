@@ -40,6 +40,7 @@
     {"id":{"name":"spr_mask_shadow","path":"sprites/spr_mask_shadow/spr_mask_shadow.yy",},},
     {"id":{"name":"obj_vasen_hylly","path":"objects/obj_vasen_hylly/obj_vasen_hylly.yy",},},
     {"id":{"name":"spr_idle","path":"sprites/spr_idle/spr_idle.yy",},},
+    {"id":{"name":"obj_change_path_trigger","path":"objects/obj_change_path_trigger/obj_change_path_trigger.yy",},},
     {"id":{"name":"sh_blur","path":"shaders/sh_blur/sh_blur.yy",},},
     {"id":{"name":"obj_temp_monster","path":"objects/obj_temp_monster/obj_temp_monster.yy",},},
     {"id":{"name":"sd_open_musicbox","path":"sounds/sd_open_musicbox/sd_open_musicbox.yy",},},

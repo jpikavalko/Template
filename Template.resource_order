@@ -3,6 +3,7 @@
   "ResourceOrderSettings": [
     {"name":"obj_mask_shadow","order":19,"path":"objects/obj_mask_shadow/obj_mask_shadow.yy",},
     {"name":"obj_vasen_hylly","order":20,"path":"objects/obj_vasen_hylly/obj_vasen_hylly.yy",},
+    {"name":"obj_change_path_trigger","order":25,"path":"objects/obj_change_path_trigger/obj_change_path_trigger.yy",},
     {"name":"obj_temp_monster","order":17,"path":"objects/obj_temp_monster/obj_temp_monster.yy",},
     {"name":"sd_open_musicbox","order":5,"path":"sounds/sd_open_musicbox/sd_open_musicbox.yy",},
     {"name":"obj_soittorasia","order":16,"path":"objects/obj_soittorasia/obj_soittorasia.yy",},
