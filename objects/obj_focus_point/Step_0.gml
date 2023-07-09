@@ -30,7 +30,7 @@ else
 	set_focus_mode("alarmed");
 	// Start following player after a while
 	
-	obj_debug_text.text_to_draw = "Alarmed\nLooking for player..."
+	//obj_debug_text.text_to_draw = "Alarmed\nLooking for player..."
 		
 	new_x = obj_temp_monster.x - obj_temp_monster.sprite_xoffset / 2;
 	new_y = obj_temp_monster.y - obj_temp_monster.sprite_yoffset / 2;

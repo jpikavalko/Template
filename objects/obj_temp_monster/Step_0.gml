@@ -46,10 +46,10 @@ if (_normalized_distance >= 0.999){
 
 }
 
-if (obj_debug_text)
-{
-	obj_debug_text.text2_to_draw = _normalized_distance;
-}
+//if (obj_debug_text)
+//{
+//	obj_debug_text.text2_to_draw = _normalized_distance;
+//}
 
 //if (_normalized_distance > .8) {
 //	is_climbing = false;
