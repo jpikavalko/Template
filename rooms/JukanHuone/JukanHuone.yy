@@ -36,6 +36,7 @@
     {"name":"inst_10C9428E","path":"rooms/JukanHuone/JukanHuone.yy",},
     {"name":"inst_3B3985BC","path":"rooms/JukanHuone/JukanHuone.yy",},
     {"name":"inst_8E20BE2","path":"rooms/JukanHuone/JukanHuone.yy",},
+    {"name":"inst_1069FF39","path":"rooms/JukanHuone/JukanHuone.yy",},
   ],
   "isDnd": false,
   "layers": [
