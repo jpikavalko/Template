@@ -57,11 +57,8 @@
     {"id":{"name":"Script1","path":"scripts/Script1/Script1.yy",},},
     {"id":{"name":"spr_jalat","path":"sprites/spr_jalat/spr_jalat.yy",},},
     {"id":{"name":"pth_path_3","path":"paths/pth_path_3/pth_path_3.yy",},},
-<<<<<<< HEAD
     {"id":{"name":"spr_lamppu","path":"sprites/spr_lamppu/spr_lamppu.yy",},},
-=======
     {"id":{"name":"obj_audiotrigger_1","path":"objects/obj_audiotrigger_1/obj_audiotrigger_1.yy",},},
->>>>>>> cc0d98e34f4bf85e704efece5aaa1e9702b1ab06
     {"id":{"name":"obj_mus_mainmenu","path":"objects/obj_mus_mainmenu/obj_mus_mainmenu.yy",},},
     {"id":{"name":"obj_oikea_hylly","path":"objects/obj_oikea_hylly/obj_oikea_hylly.yy",},},
     {"id":{"name":"obj_focus_point","path":"objects/obj_focus_point/obj_focus_point.yy",},},
@@ -93,7 +90,6 @@
     {"id":{"name":"obj_solid_black_frame17","path":"objects/obj_solid_black_frame17/obj_solid_black_frame17.yy",},},
     {"id":{"name":"sd_open_drawer","path":"sounds/sd_open_drawer/sd_open_drawer.yy",},},
     {"id":{"name":"JukanHuone_2","path":"rooms/JukanHuone_2/JukanHuone_2.yy",},},
-    {"id":{"name":"JukanHuone","path":"rooms/JukanHuone/JukanHuone.yy",},},
     {"id":{"name":"fnt_debug_font","path":"fonts/fnt_debug_font/fnt_debug_font.yy",},},
     {"id":{"name":"obj_room_image","path":"objects/obj_room_image/obj_room_image.yy",},},
     {"id":{"name":"sd_whisper_2","path":"sounds/sd_whisper_2/sd_whisper_2.yy",},},
@@ -121,7 +117,6 @@
     {"id":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"JukanHuone","path":"rooms/JukanHuone/JukanHuone.yy",},},
     {"roomId":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},},
     {"roomId":{"name":"ImmunHuone","path":"rooms/ImmunHuone/ImmunHuone.yy",},},
     {"roomId":{"name":"JukanHuone_2","path":"rooms/JukanHuone_2/JukanHuone_2.yy",},},
