@@ -131,8 +131,8 @@
     {"id":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"JukanHuone","path":"rooms/JukanHuone/JukanHuone.yy",},},
     {"roomId":{"name":"room_main_menu","path":"rooms/room_main_menu/room_main_menu.yy",},},
+    {"roomId":{"name":"JukanHuone","path":"rooms/JukanHuone/JukanHuone.yy",},},
     {"roomId":{"name":"ImmunHuone","path":"rooms/ImmunHuone/ImmunHuone.yy",},},
     {"roomId":{"name":"JukanHuone_2","path":"rooms/JukanHuone_2/JukanHuone_2.yy",},},
     {"roomId":{"name":"JoonaksenHuone","path":"rooms/JoonaksenHuone/JoonaksenHuone.yy",},},
