@@ -6,9 +6,6 @@ path_number = 1;
 // Set character to this point in path (in pixels)
 _distance_in_path = 0;
 
-// Total length of path for normalized character pos in path
-_path_len = path_get_length(pth_path_1)
-
 // character initial scale
 min_scale = 0.25;
 
@@ -21,19 +18,22 @@ player_in_cover = place_meeting(x, y, obj_obstacle);
 // Makes character follow this path
 with (other) path_start(pth_path_1, 0, path_action_reverse, false);
 
+// Total length of path for normalized character pos in path
+_path_len = path_get_length(pth_path_1)
+
 x_begin = 0;
 y_begin = 0;
 is_moving = false;
 is_climbing = false;
 last_x_dir = 1;
 
-function move_player_a(_move_speed)
+function move_player_a(_speed)
 {
 	if (path_number == 2 || path_number == 5)
 	{
-		_distance_in_path -= _move_speed;
+		_distance_in_path -= _speed;
 	}else{
-		_distance_in_path += _move_speed;
+		_distance_in_path += _speed;
 	}
 	
 	if (_distance_in_path < 0)
@@ -49,29 +49,36 @@ function move_player_a(_move_speed)
 	
 }
 
-function change_path(_path_number)
+function change_path()
 {
-	if (_path_number == 1)
+	
+}
+
+function next_path()
+{
+	path_number += 1;
+	show_debug_message(path_number);
+	if (path_number == 1)
 	{
 		with (other) path_start(pth_path_1, 0, path_action_reverse, true);
 		_path_len = path_get_length(pth_path_1)
 	}
-	else if (_path_number == 2)
+	else if (path_number == 2)
 	{
 		with (other) path_start(pth_path_2, 0, path_action_reverse, true);
 		_path_len = path_get_length(pth_path_2)
 	}
-		else if (_path_number == 3)
+		else if (path_number == 3)
 	{
 		with (other) path_start(pth_path_3, 0, path_action_reverse, true);
 		_path_len = path_get_length(pth_path_3)
 	}
-		else if (_path_number == 4)
+		else if (path_number == 4)
 	{
 		with (other) path_start(pth_path_4, 0, path_action_reverse, true);
 		_path_len = path_get_length(pth_path_4)
 	}
-		else if (_path_number == 5)
+		else if (path_number == 5)
 	{
 		with (other) path_start(pth_path_5, 0, path_action_reverse, true);
 		_path_len = path_get_length(pth_path_5)

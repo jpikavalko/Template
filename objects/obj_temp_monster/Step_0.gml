@@ -12,31 +12,36 @@ if (keyboard_check(ord("A")) || keyboard_check(vk_left))
 is_climbing = place_meeting(x, y, obj_climb_trigger);
 
 // For testing whics speed feels good
-if (keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up))
-{
-	//character_speed += 1;
-	path_number++;
-	if (path_number >= 5) path_number = 5;
+//if (keyboard_check_pressed(ord("W")) || keyboard_check_pressed(vk_up))
+//{
+//	//character_speed += 1;
+//	path_number++;
+//	if (path_number >= 5) path_number = 5;
 	
-	change_path(path_number);
+//	change_path(path_number);
 	
-	_distance_in_path = 0;
-}
-if (keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down))
-{
-	path_number--;
-	if (path_number <= 1) path_number = 1;
+//	_distance_in_path = 0;
+//}
+//if (keyboard_check_pressed(ord("S")) || keyboard_check_pressed(vk_down))
+//{
+//	path_number--;
+//	if (path_number <= 1) path_number = 1;
 
-	change_path(path_number);
+//	change_path(path_number);
 	
-	_distance_in_path = 1;
-}
+//	_distance_in_path = 1;
+//}
 
 var _normalized_distance = ((_distance_in_path - 0) / (_path_len - 0) );
 
 player_in_cover = place_meeting(x, y, obj_obstacle);
 
 path_position = _normalized_distance;
+
+if (_normalized_distance >= 0.999){
+	if (!path_number == 5)
+	next_path();
+}
 
 if (obj_debug_text)
 {
@@ -61,4 +66,4 @@ if (obj_debug_text)
 //	image_yscale = .3;
 //}
 
-draw_path(pth_path_1, x, y, false);
+//draw_path(pth_path_1, x, y, false);

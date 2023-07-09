@@ -19,6 +19,7 @@
     {"name":"sd_tv_static","order":7,"path":"sounds/sd_tv_static/sd_tv_static.yy",},
     {"name":"obj_room_image_main_menu","order":11,"path":"objects/obj_room_image_main_menu/obj_room_image_main_menu.yy",},
     {"name":"obj_tv_taso_image_main_menu","order":18,"path":"objects/obj_tv_taso_image_main_menu/obj_tv_taso_image_main_menu.yy",},
+    {"name":"obj_increment_path","order":29,"path":"objects/obj_increment_path/obj_increment_path.yy",},
     {"name":"obj_tv","order":21,"path":"objects/obj_tv/obj_tv.yy",},
     {"name":"obj_climb_trigger","order":9,"path":"objects/obj_climb_trigger/obj_climb_trigger.yy",},
     {"name":"pth_path_5","order":4,"path":"paths/pth_path_5/pth_path_5.yy",},

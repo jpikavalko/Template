@@ -71,6 +71,7 @@
     {"id":{"name":"sd_whisper","path":"sounds/sd_whisper/sd_whisper.yy",},},
     {"id":{"name":"spr_temp_room","path":"sprites/spr_temp_room/spr_temp_room.yy",},},
     {"id":{"name":"obj_tv_taso_image_main_menu","path":"objects/obj_tv_taso_image_main_menu/obj_tv_taso_image_main_menu.yy",},},
+    {"id":{"name":"obj_increment_path","path":"objects/obj_increment_path/obj_increment_path.yy",},},
     {"id":{"name":"obj_tv","path":"objects/obj_tv/obj_tv.yy",},},
     {"id":{"name":"spr_walk_right","path":"sprites/spr_walk_right/spr_walk_right.yy",},},
     {"id":{"name":"spr_climb","path":"sprites/spr_climb/spr_climb.yy",},},

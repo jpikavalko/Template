@@ -1,4 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-depth = 1000;
+other.change_path();
+instance_destroy();
