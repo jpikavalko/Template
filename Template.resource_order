@@ -1,6 +1,9 @@
 {
   "FolderOrderSettings": [],
   "ResourceOrderSettings": [
+    {"name":"pth_path_3","order":2,"path":"paths/pth_path_3/pth_path_3.yy",},
     {"name":"mus_musicbox","order":1,"path":"sounds/mus_musicbox/mus_musicbox.yy",},
+    {"name":"pth_path_4","order":3,"path":"paths/pth_path_4/pth_path_4.yy",},
+    {"name":"pth_path_2","order":1,"path":"paths/pth_path_2/pth_path_2.yy",},
   ],
 }
