@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+path_number = 1;
+
 // Set character to this point in path (in pixels)
 _distance_in_path = 0;
 
@@ -24,3 +26,25 @@ y_begin = 0;
 is_moving = false;
 is_climbing = false;
 last_x_dir = 1;
+
+function move_player_a(_move_speed)
+{
+	if (path_number == 2)
+	{
+		_distance_in_path -= _move_speed;
+	}else{
+		_distance_in_path += _move_speed;
+	}
+	
+	if (_distance_in_path < 0)
+	{
+		_distance_in_path = 0;
+	}
+	if (_distance_in_path >_path_len)
+	{
+		_distance_in_path = _path_len;
+	}
+	
+	is_moving = true;
+	
+}

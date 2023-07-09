@@ -22,21 +22,37 @@ detected = place_meeting(x, y, obj_temp_monster);
 
 if (obj_temp_monster.player_in_cover)
 {
-	// Scanning the room
-	show_debug_message("Scanning around the room...");
+	//global.focus_radius = 0.2;
+	//global.blur_radius = 2.0;
+	//global.vignette_radius = 0.1;
+	//global.vignette_feather = 0.8;
 }
 else
 {
 	// Start following player after a while
-	show_debug_message("Follow player.");
+	//global.focus_radius = 0.1;
+	//	global.blur_radius = 1.0;
+	//global.vignette_radius = 0.05;
+	//global.vignette_feather = 0.4;
 	
 	if (detected)
 	{
 		// INSANITY
-		show_debug_message("Player found!");
+		//global.focus_radius = 0.05;
+		//global.blur_radius = 0.5;
+		//global.vignette_radius = 0.025;
+		//global.vignette_feather = 0.2;
 	}
 	else if (!detected)
 	{
 		// do nothing special..
 	}
+}
+
+if (obj_temp_monster.player_in_cover)
+{
+	global.focus_radius = 0.2;
+	global.blur_radius = 2.0;
+	global.vignette_radius = 0.1;
+	global.vignette_feather = 0.8;
 }
