@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "jalat",
-    "path": "sprites/jalat/jalat.yy",
+    "name": "spr_jalat",
+    "path": "sprites/spr_jalat/spr_jalat.yy",
   },
   "spriteMaskId": null,
   "visible": true,

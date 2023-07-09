@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "oikea_hylly",
-    "path": "sprites/oikea_hylly/oikea_hylly.yy",
+    "name": "spr_oikea_hylly",
+    "path": "sprites/spr_oikea_hylly/spr_oikea_hylly.yy",
   },
   "spriteMaskId": null,
   "visible": true,

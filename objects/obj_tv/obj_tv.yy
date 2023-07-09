@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "tv",
-    "path": "sprites/tv/tv.yy",
+    "name": "spr_tv",
+    "path": "sprites/spr_tv/spr_tv.yy",
   },
   "spriteMaskId": null,
   "visible": true,

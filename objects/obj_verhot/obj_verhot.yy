@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "verhot",
-    "path": "sprites/verhot/verhot.yy",
+    "name": "spr_verhot",
+    "path": "sprites/spr_verhot/spr_verhot.yy",
   },
   "spriteMaskId": null,
   "visible": true,

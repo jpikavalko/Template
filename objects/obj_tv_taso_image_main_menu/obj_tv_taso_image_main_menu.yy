@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "tv_taso",
-    "path": "sprites/tv_taso/tv_taso.yy",
+    "name": "spr_tv_taso",
+    "path": "sprites/spr_tv_taso/spr_tv_taso.yy",
   },
   "spriteMaskId": null,
   "visible": true,
