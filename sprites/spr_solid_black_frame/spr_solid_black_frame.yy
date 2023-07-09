@@ -2,7 +2,7 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_solid_black_frame",
-  "bbox_bottom": 286,
+  "bbox_bottom": 1393,
   "bbox_left": 0,
   "bbox_right": 1919,
   "bbox_top": 0,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"51cafa66-6cc6-44a2-a168-844396634348",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"517ee56b-bfd8-4b93-bd10-19696b11bd9a",},
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 300,
+  "height": 1394,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"bc0c6516-1f78-4f5f-ae76-636ccc87ba74","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"70e7e433-04dd-44f7-bcb3-73a343a0e917","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"51cafa66-6cc6-44a2-a168-844396634348","path":"sprites/spr_solid_black_frame/spr_solid_black_frame.yy",},},},"Disabled":false,"id":"9c7e1554-24a9-43eb-a156-904342bce480","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"517ee56b-bfd8-4b93-bd10-19696b11bd9a","path":"sprites/spr_solid_black_frame/spr_solid_black_frame.yy",},},},"Disabled":false,"id":"96a4f151-ee76-43e6-8a75-d597992580e2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
